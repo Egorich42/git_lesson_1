@@ -1,0 +1,90 @@
+mkdir weather_analytics
+mkdir weather_analytics_v2
+mkdir weather_analytics_25.07.2020
+mkdir weather_analytics_29.07.2020
+vim weather_analytics_29.07.2020/changes -> ВНОСИМ ТЕКСТ
+
+mkdir repo_example && cd repo_example
+git init
+ls -la
+mkdir src && touch src/main.py
+git status
+add text ot file
+git add src/main.py
+git status
+зелененький
+touch settings.json
+git status
+Добавили себе меч и лечилку
+А вот это аналог нашего текстовоо файла с описанием изменений, как раньше у сейвфалв были имена (Сталкер)
+git commit -m
+смотри на текст - оооо, вон они, наши любимые хэши!
+git status
+touch Dockerfile
+git status
+git add . && git commit -m "Added Dockerfile"
+git log
+git branch
+
+КОМИТ ХРАНИТ ДИФЫ.
+Ветка - последоватеность коммита.
+Для нас ветка = последний коммит
+
+git diff коммитов
+git checkout
+git log
+
+
+git branch newbranch
+git checkout newbranch
+touch .env
+git add
+git commit
+
+git diff master
+
+git checkout master
+git log
+git merge newbranch
+результат!!!
+git log
+
+Гит - отдельная программа. Наблюдатель, дающющий взможность делать сейвы. 
+Два этпа - сначчал оворим ,что хотим а потом отдаем команду.
+После команды обраузеться коммит - превращенный в хэш-сумму набодр даннхы о различиях.
+
+В гит это основная еденица. Из оного комма водит следующий.
+Но х можно сопировать и выпустить рзные следующие коммиты - это дает ветки.
+Но ветка это не какая-то отдельная сущность.
+
+Можно мержить.
+сравнвать
+Видеть список.
+
+
+На это базируеться много фишек:
+- черри-пик
+
+Окей, а гитхаб и пулл-реквесты тут каим боком?
+удаленный репо
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
